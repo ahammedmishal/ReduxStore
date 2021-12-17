@@ -11,15 +11,15 @@ function StackNavigator() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-         name='Foods'
+         name='EATIZA'
          component={RecipesScreen} 
          options={{ 
           headerStyle: {
             backgroundColor: '#7CB236',
           },
-          headerTintColor: '#fff',
+          headerTintColor: 'black',
           headerTitleStyle: {
-            fontWeight: '700',
+            fontWeight: '600',
           },
            headerRight: props => <HeaderCartIcon {...props} />
          }}
@@ -31,8 +31,9 @@ function StackNavigator() {
             headerStyle: {
               backgroundColor : '#7CB236'
             },
-            headerTintColor: '#fff',
+            headerTintColor: 'black',
           }}
+          
           />
       </Stack.Navigator>
     </NavigationContainer>

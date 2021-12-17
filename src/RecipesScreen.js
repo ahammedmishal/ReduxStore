@@ -145,7 +145,7 @@ export default RecipesScreen;
     },
     button: {
         borderRadius: 20,
-        backgroundColor: '#2289DC',
+        backgroundColor: 'black',
         padding: 5,
         width:90,
         alignItems:'center',
